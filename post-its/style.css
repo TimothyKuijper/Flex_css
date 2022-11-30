@@ -8,10 +8,11 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #2f86a6;
+    background: #2F86a6;
     font-family: 'Nerko One', cursive;
     font-size: 16px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .postit{
@@ -22,6 +23,14 @@ body{
     align-items: center;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 100%, 0% 100%);    
     position: relative;
+    transition: 3s all;
+    transform-origin: top left;
+    flex-shrink: 0;
+}
+
+.postit:hover{
+    transform: rotate(15deg);
+    transition: 1s all;
 }
 
 .green > div, .yellow > div, .red > div{
@@ -56,6 +65,12 @@ body{
     background: #ce0000;
 }
 
-h1{
+.text{
     font-size: 200%;
+}
+
+@media screen and (max-width: 1200px) {
+    .postit:hover{
+        transform: none;
+        
 }
