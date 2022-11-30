@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f86a6;
+    font-family: 'Nerko One', cursive;
+    font-size: 16px;
+    gap: 30px;
+}
+
+.postit{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 100%, 0% 100%);    
+    position: relative;
+}
+
+.green > div, .yellow > div, .red > div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.green{
+    background: #34BE28;
+}
+
+.yellow{
+    background: #F2F013;
+}
+
+.red{
+    background: #FF0000;
+}
+
+.yellow > div{
+    background: #d2ce0c;
+}
+
+.green > div{
+    background: #2b9a21;
+}
+
+.red > div{
+    background: #ce0000;
+}
+
+h1{
+    font-size: 200%;
+}
