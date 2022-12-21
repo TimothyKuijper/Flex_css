@@ -9,7 +9,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #2F86a6;
-    font-family: 'Nerko One', cursive;
+    font-family: 'Nerko One', cursive;  
     font-size: 16px;
     gap: 30px;
     flex-wrap: wrap;
@@ -72,5 +72,5 @@ body{
 @media screen and (max-width: 1200px) {
     .postit:hover{
         transform: none;
-        
+    }    
 }

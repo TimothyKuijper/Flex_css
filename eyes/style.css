@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.u-flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{ 
+    min-height: 100vh;
+    background: #090910;
+    gap: 20px;
+}
+
+.eye{
+    width: 140px;
+    height: 260px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.iris{
+    width: 80px;
+    height: 80px;
+    background: #30d733;
+    background: linear-gradient(#0c410d, #30d733);
+    border-radius: 50%;
+    position: relative;  
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.pupil{
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    background: black;
+}
+
+.shimmering{
+    height: 35%;
+    width: 30%;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    transform: rotate(30deg);
+}

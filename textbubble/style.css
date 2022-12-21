@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #34BE82;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texbubble{
+    position: relative;
+}
+
+.bubble{
+    height: 200px;
+    width: 270px;
+    background: white;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.triangle{
+    height: 40px;
+    width: 40px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
